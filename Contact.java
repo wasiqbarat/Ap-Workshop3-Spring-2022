@@ -7,10 +7,10 @@ public class Contact {
     private Address address;
 
     public Contact() {
-        this.group = "";
-        this.email = "";
-        this.firstName = "";
-        this.lastName = "";
+        this.group = "-";
+        this.email = "-";
+        this.firstName = "-";
+        this.lastName = "-";
         this.phoneNumber = new PhoneNumber();
         this.address = new Address();
     }

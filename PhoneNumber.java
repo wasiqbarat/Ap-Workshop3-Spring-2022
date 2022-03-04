@@ -3,12 +3,12 @@ public class PhoneNumber {
     private String number;
 
     public PhoneNumber() {
-        this.countryCode = "";
-        this.number = "";
+        this.countryCode = "-";
+        this.number = "-";
     }
 
     public void setCountryCode(String countryCode) {
-            this.countryCode = countryCode;
+        this.countryCode = countryCode;
     }
 
     public void setNumber(String number) {
@@ -26,7 +26,7 @@ public class PhoneNumber {
     }
 
     public String toString() {
-        return "Phone number: " + countryCode + number;
+        return "Phone number: " + "("+countryCode + ")" + number;
     }
 
 }

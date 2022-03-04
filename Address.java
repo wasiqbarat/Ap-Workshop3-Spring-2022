@@ -5,10 +5,10 @@ public class Address {
     private String email;
 
     public Address() {
-        this.email = "";
-        this.city = "";
-        this.zipCode = "";
-        this.country = "";
+        this.email = "-";
+        this.city = "-";
+        this.zipCode = "-";
+        this.country = "-";
     }
 
 
